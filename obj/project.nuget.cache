@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GqRxcyCU7qPQqp9ekAuXfLbiueia4eaPQS0Vos/9SH2+uZvKD+3zoZHouY5fJHu/ebRFBIhNmCk0e1wnvhC69A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\there\\Documents\\MadGodBrawl\\MadGodBrawl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\there\\.nuget\\packages\\raylib-cs\\6.1.1\\raylib-cs.6.1.1.nupkg.sha512",
+    "C:\\Users\\there\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

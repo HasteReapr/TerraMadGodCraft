@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EPuGydIkOihGRKf47jITGe+O5quiHJBtTaRUNpeho68S+H1L6pB3gPbqSFauh9Zsly9JXw6Jxq0YwVYU/Gp8FA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\there\\Documents\\MadGodBrawl\\MadGodBrawl\\RotmgClone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\there\\.nuget\\packages\\raylib-cs\\6.1.1\\raylib-cs.6.1.1.nupkg.sha512",
+    "C:\\Users\\there\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
