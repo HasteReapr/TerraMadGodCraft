@@ -6,8 +6,9 @@ namespace Engine.Core.Components
     {
         internal Texture2D texture;
 
-        public Sprite2D()
+        public Sprite2D(Texture2D texture)
         {
+            this.texture = texture;
             Sprite2DSystem.Register(this);
         }
 

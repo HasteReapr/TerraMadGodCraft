@@ -1,8 +1,9 @@
 using Raylib_cs;
 using Engine.Core;
 using Engine.Core.Components;
-using Transform = Engine.Core.Components.Transform;
 using System.Numerics;
+
+using Transform = Engine.Core.Components.Transform;
 
 namespace Engine
 {
@@ -16,10 +17,11 @@ namespace Engine
             trans.position = new Vector2(Program.ScreenW/2, Program.ScreenH/2);
             AddComponent(trans);
 
-            Sprite2D sprite = new Sprite2D();
-            //We wanna set the sprite of whatever we are working in here in the initial bit of the info, so the Animator component can grab it.
-            sprite.texture = Raylib.LoadTexture("Textures/Player/Player_Anim/Player_Idle_Run_Death_Anim.png");
+            AnimatedSprite2D sprite = new AnimatedSprite2D(Raylib.LoadTexture("Textures/Player/Player_Anim/Player-Idle.png"), 6, 3, 3);
             AddComponent(sprite);
+
+            InputBank inputBank = new InputBank();
+            AddComponent(inputBank);
         }
     }
 }
