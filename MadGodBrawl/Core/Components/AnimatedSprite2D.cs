@@ -2,10 +2,11 @@
 
 namespace Engine.Core.Components
 {
-    //@description
-    // AnimatedSprite2D takes a sprite and animates it based on parameters that are passed in.
-    // 
-    internal class AnimatedSprite2D : Component
+    ///<Summary>
+    /// AnimatedSprite2D takes a sprite and animates it based on parameters that are passed in.
+    /// This is a simpler animator than the more complex ones added later on, as it only works horizontally.
+    ///</Summary> 
+    internal class AnimatedSprite2D : Component, IEquatable<AnimatedSprite2D>
     {
         internal Texture2D texture;
         internal int currentFrame;

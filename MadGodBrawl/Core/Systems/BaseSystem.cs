@@ -6,12 +6,20 @@ namespace Engine.Core.Systems
     {
         protected static List<T> components = new List<T>();
 
-        public static void Register(T component)
+        internal static void Register(T component)
         {
             components.Add(component);
         }
 
-        public static void Update(float deltaTime)
+        internal static void PreUpdate(float deltaTime)
+        {
+            foreach(T component in components)
+            {
+                component.PreUpdate(deltaTime);
+            }
+        }
+
+        internal static void Update(float deltaTime)
         {
             foreach (T component in components)
             {

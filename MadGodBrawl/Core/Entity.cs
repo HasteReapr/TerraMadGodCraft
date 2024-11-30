@@ -6,6 +6,7 @@ namespace Engine.Core
     internal class Entity
     {
         public int ID { get; set; }
+        public virtual String name { get; }
 
         internal List<Component> components = new List<Component>();
 
@@ -27,6 +28,11 @@ namespace Engine.Core
                 }
             }
             return null;
+        }
+
+        public override string ToString()
+        {
+            return name;
         }
     }
 }
